@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background: black;
+  color: orange;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  border: 2px solid orange;
+  border-radius: 8px;
+}
