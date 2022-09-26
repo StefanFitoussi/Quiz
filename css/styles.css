@@ -52,6 +52,23 @@ button:active {
   color: white;
 }
 
-.bookmark {
-  position absolute;%
+.footer {
+  background-color: orange;
+  height: 80px;
+  padding: 10px;
+  position: fixed;
+  justify-content: space-around;
+  align-items: space-around;
+  display: flex;
+  bottom: 4px;
+  border: 2px solid black;
+  border-radius: 8px;
+  z-index: 100;
+  align-items: space-around;
+  width: 100%;
+  left: 0;
+}
+
+nav a img {
+  width: 55px;
 }
