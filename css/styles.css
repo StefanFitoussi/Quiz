@@ -11,10 +11,13 @@ html {
   color: orange;
   height: 100px;
   padding: 10px;
+  top: 0;
+  position: sticky;
   text-align: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   border: 2px solid orange;
   border-radius: 8px;
+  z-index: 100;
 }
 
 .box {
@@ -23,6 +26,7 @@ html {
   padding: 20% 10%;
   scroll-margin-top: 10px;
   border-radius: 25px;
+  position: relative;
 }
 
 p {
@@ -40,9 +44,14 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  align-self: center;
 }
 
 button:active {
   background-color: black;
   color: white;
+}
+
+.bookmark {
+  position absolute;%
 }
