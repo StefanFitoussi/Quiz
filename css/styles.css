@@ -23,10 +23,12 @@ html {
 .box {
   margin: 25px 10%;
   border: 5px solid black;
-  padding: 20% 10%;
+  padding: 20% 10% 5%;
   scroll-margin-top: 10px;
   border-radius: 25px;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 p {
@@ -56,7 +58,7 @@ button:active {
   background-color: orange;
   height: 80px;
   padding: 10px;
-  position: fixed;
+  position: sticky;
   justify-content: space-around;
   align-items: space-around;
   display: flex;
@@ -71,4 +73,25 @@ button:active {
 
 nav a img {
   width: 55px;
+}
+
+.hashtags span {
+  font-size: 14px;
+  padding: 4px;
+  background-color: #eeeeee;
+}
+
+.hashtags {
+  justify-self: flex-end;
+  margin-top: 50px;
+}
+
+.ribbon {
+  background-image: url("../Images/bookmark-ribbon.png");
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -15px;
+  right: 25px;
 }
