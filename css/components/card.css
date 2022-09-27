@@ -19,23 +19,14 @@ p {
   align-items: space-around;
   flex-wrap: wrap;
   display: flex;
+  justify-self: flex-end;
+  margin-top: 50px;
 }
 
 .hashtags span {
   font-size: 14px;
   padding: 4px;
   background-color: #eeeeee;
-}
-
-.hashtags {
-  justify-self: flex-end;
-  margin-top: 50px;
-}
-
-.hashtags2 {
-  justify-self: flex-end;
-  margin-top: 0;
-  margin-left: 50%;
 }
 
 .ribbon {
