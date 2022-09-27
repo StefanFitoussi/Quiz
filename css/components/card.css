@@ -15,6 +15,12 @@ p {
   justify-content: space-around;
 }
 
+.flex-hashtags {
+  align-items: space-around;
+  flex-wrap: wrap;
+  display: flex;
+}
+
 .hashtags span {
   font-size: 14px;
   padding: 4px;
@@ -24,6 +30,12 @@ p {
 .hashtags {
   justify-self: flex-end;
   margin-top: 50px;
+}
+
+.hashtags2 {
+  justify-self: flex-end;
+  margin-top: 0;
+  margin-left: 50%;
 }
 
 .ribbon {
