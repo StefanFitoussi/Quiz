@@ -1,0 +1,13 @@
+.header {
+  background: black;
+  color: orange;
+  height: 100px;
+  padding: 10px;
+  top: 0;
+  position: sticky;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 2px solid orange;
+  border-radius: 8px;
+  z-index: 100;
+}
