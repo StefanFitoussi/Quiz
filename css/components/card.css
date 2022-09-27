@@ -16,7 +16,6 @@ p {
 }
 
 .flex-hashtags {
-  align-items: space-around;
   flex-wrap: wrap;
   display: flex;
   justify-self: flex-end;
