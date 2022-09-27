@@ -1,0 +1,16 @@
+.button {
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-self: center;
+}
+
+button:active {
+  background-color: black;
+  color: white;
+}
