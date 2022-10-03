@@ -13,57 +13,59 @@
       <h1 class="Quiz_Header">Quiz App</h1>
     </header>
     <main>
-      <section role="Questions">
-        <article class="card">
-          <div class="ribbon"></div>
+      <section class="questions">
+        <article class="questions__card">
+          <div class="ribbon questions__card--ribbon"></div>
           <p>Was ist der kleinste Vogel der Welt?</p>
-          <button class="button">Show Answer</button>
+          <button class="button questions__card--button">Show Answer</button>
           <div class="flex-hashtags"></div>
-          <div class="hashtags">
+          <div class="hashtags questions__card--hashtags">
             <span>#nature</span>
             <span>#birds</span>
             <span>#forest</span>
           </div>
         </article>
-        <article class="card">
-          <div class="ribbon"></div>
+        <article class="questions__card">
+          <div class="ribbon questions__card--ribbon"></div>
           <p>Was ist die Lebensdauer einer Libelle?</p>
-          <button class="button" type="button">Show Answer</button>
+          <button class="button questions__card--button" type="button">
+            Show Answer
+          </button>
           <div class="flex-hashtags"></div>
-          <div class="hashtags">
+          <div class="hashtags questions__card--hashtags">
             <span>#nature</span>
             <span>#insects</span>
             <span>#forest</span>
           </div>
         </article>
-        <article class="card">
-          <div class="ribbon"></div>
+        <article class="questions__card">
+          <div class="ribbon questions__card--ribbon"></div>
           <p>Wie heißt der Präsident von Frankreich?</p>
-          <button class="button">Show Answer</button>
+          <button class="button questions__card--button">Show Answer</button>
           <div class="flex-hashtags"></div>
-          <div class="hashtags">
+          <div class="hashtags questions__card--hashtags">
             <span>#politics</span>
             <span>#france</span>
             <span>#europe</span>
           </div>
         </article>
-        <article class="card">
-          <div class="ribbon"></div>
+        <article class="questions__card">
+          <div class="ribbon questions__card--ribbon"></div>
           <p>Wie weit ist die Sonne von der Erde entfernt?</p>
-          <button class="button">Show Answer</button>
+          <button class="button questions__card--button">Show Answer</button>
           <div class="flex-hashtags"></div>
-          <div class="hashtags">
+          <div class="hashtags questions__card--hashtags">
             <span>#solar-system</span>
             <span>#universe</span>
             <span>#space</span>
           </div>
         </article>
-        <article class="card">
-          <div class="ribbon"></div>
+        <article class="questions__card">
+          <div class="ribbon questions__card--ribbon"></div>
           <p>Welcher ist der größte Ozean auf der Erde?</p>
-          <button class="button">Show Answer</button>
+          <button class="button questions__card--button">Show Answer</button>
           <div class="flex-hashtags"></div>
-          <div class="hashtags">
+          <div class="hashtags questions__card--hashtags">
             <span>#nature</span>
             <span>#ocean</span>
             <span>#earth</span>
@@ -72,27 +74,36 @@
       </section>
     </main>
     <footer class="footer">
-      <nav class="nav" role="navigation role">
+      <nav class="nav footer__navbar" role="navigation role">
         <a href=""
           ><img
+            class="footer__navbar--ribbon-icon"
             src="./images/bookmark-ribbon.png"
             alt="icon of a bookmark-ribbon"
         /></a>
         <a href=""
-          ><img src="./images/home.png" alt="icon of a house, home"
+          ><img
+            class="footer__navbar--home-icon"
+            src="./images/home.png"
+            alt="icon of a house, home"
         /></a>
         <a href=""
-          ><img src="./images/user.png" alt="icon of a head-silhouette"
+          ><img
+            class="footer__navbar--profile-icon"
+            src="./images/user.png"
+            alt="icon of a head-profile"
         /></a>
       </nav>
     </footer>
     <div class="impressum">
-      <p class="name">Stefan Fitoussi</p>
-      <p class="contact">
+      <p class="name impressum__name">Stefan Fitoussi</p>
+      <p class="contact impressum__contact">
         Contact:
         <a href="https://github.com/StefanFitoussi">GitHub</a>
       </p>
-      <p class="icons-by">Icons by: <a href="https://icons8.de/">ICONS8</a></p>
+      <p class="icons-by impressum__icons-copyright">
+        Icons by: <a href="https://icons8.de/">ICONS8</a>
+      </p>
     </div>
   </body>
 </html>
