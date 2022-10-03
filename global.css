@@ -6,6 +6,30 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .header {
+    background-color: orange !important;
+    color: black !important;
+  }
+  .questions__card {
+    border-color: white !important;
+  }
+  .ribbon {
+    background-image: url("/Images/icons8-bookmark-67.png") !important;
+  }
+  .hashtags span{
+    background-color: orange !important;
+    color: black !important;
+  }
+  .impressum {
+    color: black;
+  }
+}
+
 @media (min-width: 600px) {
   header {
     width: 95%;
