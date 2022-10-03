@@ -1,4 +1,4 @@
-.card {
+.questions__card {
   margin: 25px 10%;
   border: 5px solid black;
   padding: 20% 10% 5%;
@@ -7,8 +7,16 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  align-item: center;
 }
 
+.questions {
+  margin: auto;
+}
+
+questions {
+  margin: auto;
+}
 p {
   font-size: 20px;
   font-weight: bold;

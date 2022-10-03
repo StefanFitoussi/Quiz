@@ -5,3 +5,70 @@
 html {
   scroll-behavior: smooth;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  .header {
+    background-color: orange !important;
+    color: black !important;
+  }
+  .questions__card {
+    border-color: white !important;
+  }
+  .ribbon {
+    background-image: url("/Images/icons8-bookmark-67.png") !important;
+  }
+  .hashtags span{
+    background-color: orange !important;
+    color: black !important;
+  }
+  .impressum {
+    color: black;
+  }
+}
+
+@media (min-width: 600px) {
+  header {
+    width: 95%;
+  }
+  .questions {
+    width: 80%;
+  }
+  footer {
+    width: 95%;
+  }
+  .impressum {
+    width: 95%
+  }
+}
+
+@media (min-width: 900px) {
+  header {
+    width: 80%;
+  }
+  .questions {
+    width: 65%;
+  }
+  footer {
+    width: 80%;
+  }
+  .impressum {
+    width: 80%
+}
+
+@media (min-width: 1200px) {
+  header {
+    width: 60%;
+  }
+  .questions {
+    width: 55%;
+  }
+  footer {
+    width: 60%;
+  }
+  .impressum {
+    width: 60%
+}

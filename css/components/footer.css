@@ -4,15 +4,13 @@
   padding: 10px;
   position: sticky;
   justify-content: space-around;
-  align-items: space-around;
   display: flex;
   bottom: 4px;
   border: 2px solid black;
   border-radius: 8px;
   z-index: 100;
   align-items: space-around;
-  width: 100%;
-  left: 0;
+  margin: auto;
 }
 
 nav a img {

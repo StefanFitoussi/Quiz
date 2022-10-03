@@ -1,16 +1,37 @@
 .impressum {
   background-color: orange;
-  height: 20px;
+  height: 40px;
   padding: 10px;
   position: static;
   justify-content: space-around;
-  align-items: space-around;
   display: flex;
   bottom: 0;
   border: 2px solid black;
   border-radius: 8px;
   z-index: 100;
   align-items: space-around;
-  width: 100%;
-  left: 0;
+  margin: auto;
+}
+
+.name {
+  font-size: 14px;
+  margin: auto;
+}
+
+.contact {
+  font-size: 14px;
+  margin: auto;
+}
+
+a {
+  font-size: 14px;
+  color: orange;
+  background-color: black;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.icons-by {
+  font-size: 14px;
+  margin: auto;
 }
